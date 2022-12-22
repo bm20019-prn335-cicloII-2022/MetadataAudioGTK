@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.18"/>
+  <object class="GtkWindow" id="MainWindow">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Metadata</property>
+    <property name="resizable">False</property>
+    <property name="window-position">center</property>
+    <property name="default-width">510</property>
+    <property name="default-height">350</property>
+    <property name="gravity">center</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage" id="lblImagen">
+            <property name="width-request">250</property>
+            <property name="height-request">250</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="double-buffered">False</property>
+          </object>
+          <packing>
+            <property name="x">17</property>
+            <property name="y">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblTitulo">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Title:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblAlbum">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Album:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblInterpretes">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="double-buffered">False</property>
+            <property name="label" translatable="yes">Intérpretes:</property>
+            <property name="track-visited-links">False</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">90</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblGenero">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Generos:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">210</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblTrack">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Pista: </property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblYear">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Año:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblCopyright">
+            <property name="width-request">250</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Copyright: </property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">375</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblTrackCount">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Numero de Pistas:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">250</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblISRC">
+            <property name="width-request">250</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">ISRC:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">520</property>
+            <property name="y">375</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblDiscCount">
+            <property name="width-request">400</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Disco Numero °:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">290</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblComposers">
+            <property name="width-request">400</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Disco Numero °:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.5"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblDuracion">
+            <property name="width-request">150</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Duracion:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.3"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">265</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblCodecs">
+            <property name="width-request">150</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Codecs:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.3"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">295</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblAudioSample">
+            <property name="width-request">150</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">AudioSample:</property>
+            <attributes>
+              <attribute name="font-desc" value="Arial Italic 10"/>
+              <attribute name="scale" value="1.3"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">5</property>
+            <property name="y">325</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
